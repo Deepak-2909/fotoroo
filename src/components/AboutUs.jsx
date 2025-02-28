@@ -29,7 +29,9 @@ const AboutUs = () => {
           </p>
         </div>
 
-        <img src={aboutUsGif} alt="" className="md:w-full h-96 " />
+        {/* <img src={aboutUsGif} alt="" className="md:w-full h-96 " /> */}
+        <video src={aboutUsGif} autoPlay loop muted playsInline className="md:w-full h-96 object-cover" />
+
       </div>
     </section>
   );

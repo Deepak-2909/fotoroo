@@ -22,6 +22,7 @@ const Home = () => {
             autoPlay 
             loop 
             muted
+            playsInline
             aria-label="Promotional video"/>
         </div>
       </div>
