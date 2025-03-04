@@ -13,17 +13,16 @@ At weddings, milestone celebrations, and corporate galas, this elegant, vintage-
 
 No apps. No awkward typing. Just pure nostalgia, bottled in sound.
 Ditch the pen. Dial in the magic.
-
-How Does It Work?
-Step 1 – Pick up the phone. Step 2 – Leave your message after the beep. Step 3 – Hang up to save your recording.`,
+\nHow Does It Work?
+\nStep 1 – Pick up the phone.\nStep 2 – Leave your message after the beep.\nStep 3 – Hang up to save your recording.`,
       image: AudioGB, 
-    },
-    {
-      title: "Keep Sake Album",
-      description: "Timeless Memories, Beautifully Preserved",
-      content: `Turn your special moments into a lasting keepsake with the FotoRoo Keepsake Album. It's the perfect way to collect all the photos taken in the booth, along with heartfelt messages from your guests. After your event, you'll have a beautifully crafted album to look back on and cherish for years to come.`,
-      image: Audio, 
-    },
+    }
+    // {
+    //   title: "Keep Sake Album",
+    //   description: "Timeless Memories, Beautifully Preserved",
+    //   content: `Turn your special moments into a lasting keepsake with the FotoRoo Keepsake Album. It's the perfect way to collect all the photos taken in the booth, along with heartfelt messages from your guests. After your event, you'll have a beautifully crafted album to look back on and cherish for years to come.`,
+    //   image: Audio, 
+    // },
   ]
 
   return (
@@ -40,7 +39,7 @@ Step 1 – Pick up the phone. Step 2 – Leave your message after the beep. Step
                 <p className="font-courgette font-semibold md:text-lg leading-5 text-textCol md:w-4/5 mb-4">
                   {booth.description}
                 </p>
-                <p className="font-courgette font-medium md:text-lg leading-5 text-textCol md:w-4/5">
+                <p className="font-courgette font-medium md:text-lg leading-5 text-textCol md:w-4/5 whitespace-pre-line">
                   {booth.content}
                 </p>
               </div>

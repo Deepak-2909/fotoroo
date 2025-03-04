@@ -1,10 +1,10 @@
-const TestimonialCard = ({ image, name, text, rating }) => {
+const TestimonialCard = ({ photoUri, displayName, text, rating }) => {
     return (
-      <div className="bg-transparent border border-textCol rounded-lg shadow p-4 w-60 flex-shrink-0">
+      <div className="bg-transparent border border-textCol rounded-lg shadow p-4 w-60 flex-shrink-0 overflow-hidden">
         <div className="flex justify-between gap-4 mb-4">
           <img
-            src={image}
-            alt={name}
+            src={photoUri}
+            alt={displayName}
             className="w-12 h-12 object-cover"
           />
           <div className="flex ">
@@ -20,8 +20,8 @@ const TestimonialCard = ({ image, name, text, rating }) => {
           ))}
         </div>
         </div>
-        <h1 className="-mt-3 ">{name}</h1>
-        <p className="text-sm text-gray-600 my-4">{text}</p>
+        <h1 className="-mt-3 ">{displayName}</h1>
+        <p className="text-sm text-gray-600 my-4 overflow-y-auto max-h-32">{text}</p>
         
       </div>
     );

@@ -1,117 +1,43 @@
 
 import TestimonialCard from "./TestimonialCard";
 import testicon from "../Images/testicon.png"
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 
 
 const Testimonials = () => {
 
-  // const [testimonials, setTestimonials] = useState([]);
+  const [reviews, setReviews] = useState([]);
 
-  // const fetchTestimonials = async () => {
-  //   try {
-  //     const response = await fetch("/api/get_reviews");
-  //     const data = await response.json();
-      
-  //     if (data.success) {
-  //       setTestimonials(data.testimonials);
-  //       console.log("Testimonials:", testimonials);
-  //     } else {
-  //       console.error("Error fetching testimonials:", data.error);
-  //     }
-  //   } catch (error) {
-  //     console.error("Error:", error);
-  //   }
-  // };
-  
-  // fetchTestimonials();
-  
-  const testimonials = [
-    {
-      image: testicon,
-      name: "John Doe",
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      rating: 4,
-    },
-    {
-      image: testicon,
-      name: "Jane Smith",
-      text: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
-      rating: 5,
-    },
-    {
-      image: testicon,
-      name: "John Doe",
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      rating: 4,
-    },
-    {
-      image: testicon,
-      name: "Jane Smith",
-      text: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
-      rating: 5,
-    },
-    {
-      image: testicon,
-      name: "John Doe",
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      rating: 4,
-    },
-    {
-      image: testicon,
-      name: "Jane Smith",
-      text: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
-      rating: 5,
-    },
-    {
-      image: testicon,
-      name: "John Doe",
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      rating: 4,
-    },
-    {
-      image: testicon,
-      name: "Jane Smith",
-      text: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
-      rating: 5,
-    },
-    {
-      image: testicon,
-      name: "John Doe",
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      rating: 4,
-    },
-    {
-      image: testicon,
-      name: "Jane Smith",
-      text: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
-      rating: 5,
-    },
-    {
-      image: testicon,
-      name: "John Doe",
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      rating: 4,
-    },
-    {
-      image: testicon,
-      name: "Jane Smith",
-      text: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
-      rating: 5,
-    },
+  useEffect(() => {
+    const fetchTestimonials = async () => {
+      try {
+        const response = await fetch("/api/get_reviews");
+        const data = await response.json();
+        console.log("Response:", response);
+        console.log("Data:", data);
+        
+        if (response.status !== 200) {
+          console.error("Error fetching testimonials:", data.error);
+          return;
+        } else {
+          setReviews(data.reviews);
+          console.log("Testimonials:", data.reviews);
+        }
+      } catch (error) {
+        console.error("Error:", error);
+      }
+    };
     
-  ];
-
- 
-  
+    fetchTestimonials();
+  }, []);
 
   return (
     <section className="flex flex-col items-center mt-16">
       <h1 className="font-pinyon text-6xl mb-10">Testimonials</h1>
-      <div className="relative h-72 w-full overflow-hidden">
+      <div className="relative h-80 w-full overflow-hidden">
         <div className="animate-marquee flex gap-6">
-          {testimonials.map((testimonial, index) => (
+          {reviews.concat(reviews).map((testimonial, index) => (
             <TestimonialCard key={index} {...testimonial} />
           ))}
         </div>

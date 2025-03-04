@@ -121,16 +121,16 @@ const Packages = () => {
                 <p className="text-sm text-muted-foreground italic mb-2">
                   {booth.description}
                 </p>
-                <p className="text-base font-semibold">{booth.price}</p>
+                {/* <p className="text-base font-semibold">{booth.price}</p> */}
               </CardHeader>
               {/* Ensure CardContent fills the remaining space */}
               <CardContent className="flex-grow flex flex-col justify-between">
                 <div className="prose max-w-none text-sm mb-4">
-                  {booth.content.split("\n\n").map((paragraph, index) => (
+                  {/* {booth.content.split("\n\n").map((paragraph, index) => (
                     <p key={index} className="mb-2">
                       {paragraph}
                     </p>
-                  ))}
+                  ))} */}
                 </div>
                 {booth.inclusions && booth.id === 4 && (
                   <div>
