@@ -30,7 +30,7 @@ const AboutUs = () => {
         </div>
 
         {/* <img src={aboutUsGif} alt="" className="md:w-full h-96 " /> */}
-        <video src={aboutUsGif} autoPlay loop muted playsInline className="md:w-full h-full object-cover" />
+        <video src={aboutUsGif} autoPlay loop muted playsInline className="w-full max-w-3xl aspect-video object-contain md:max-h-[500px]" />
 
       </div>
     </section>

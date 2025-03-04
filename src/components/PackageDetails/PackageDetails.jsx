@@ -3,7 +3,15 @@ import HomeImage from "../../Images/HomeImage.png";
 import packagedetail1 from "../../Images/packagedetail1.png";
 import packagedetail2 from "../../Images/packagedetail2.png";
 import packagedetail3 from "../../Images/packagedetail3.png";
-import gif1 from "../../Images/PI_gif.mp4";
+import props from "../../Images/props.jpg";
+import gifimg from "../../Images/gifimg.png";
+import qrcodeimg from "../../Images/qr.jpeg";
+import airdrop from "../../Images/airdrop.png";
+import redcarpet from "../../Images/red-carpet.jpg";
+import delivery from "../../Images/delivery.jpg";
+import gallery from "../../Images/secure_online_gallery.jpg";
+import backdrop from "../../Images/customizable_backdrop.png";
+import lighting from "../../Images/studio_grade_lighting.jpg";
 import AddOns from "../AddOns";
 import { useEffect } from "react";
 
@@ -124,22 +132,22 @@ const items = [
       {
         title: "Trendy Props",
         paragraph: "A curated selection of stylish and playful props to add personality and creativity to every shot.",
-        imageURL: packagedetail1
+        imageURL: props
       },
       {
         title: "GIF",
         paragraph: "Turn still moments into fun, shareable animations that bring your memories to life.",
-        imageURL: gif1
+        imageURL: gifimg
       },
       {
         title: "Studio-Grade Lighting",
         paragraph: "Flawless, well-lit photos with professional lighting that makes every guest look their best.",
-        imageURL: packagedetail3
+        imageURL: lighting
       },
       {
         title: "Customizable Backdrops",
         paragraph: "A variety of elegant and themed backgrounds tailored to match your event’s aesthetic.",
-        imageURL: packagedetail1
+        imageURL: backdrop
       },
       {
         title: "Personalized Print Designs",
@@ -149,27 +157,27 @@ const items = [
       {
         title: "Secure Online Gallery",
         paragraph: "A private digital album where guests can view, download, and share their photos easily.",
-        imageURL: packagedetail1
+        imageURL: gallery
       },
       {
         title: "Hassle-Free Delivery & Setup",
         paragraph: "We handle everything from transport to assembly, ensuring a hassle-free, seamless experience for you.",
-        imageURL: packagedetail1
+        imageURL: delivery
       },
       {
         title: "Red Carpet and Bollards",
         paragraph: "Elevate the experience with a VIP entrance, creating a glamorous touch for your event.",
-        imageURL: packagedetail1
+        imageURL: redcarpet
       },
       {
         title: "Airdrop",
         paragraph: "Instant, wireless photo sharing for Apple users, making it easy to save and share moments.",
-        imageURL: packagedetail1
+        imageURL: airdrop
       },
       {
         title: "QR Code",
         paragraph: "Quick and convenient access to event photos, allowing guests to download their pictures instantly.",
-        imageURL: packagedetail1
+        imageURL: qrcodeimg
       }
     ]
   },
@@ -196,22 +204,22 @@ const items = [
       {
         title: "Trendy Props",
         paragraph: "A curated selection of stylish and playful props to add personality and creativity to every shot.",
-        imageURL: packagedetail1
+        imageURL: props
       },
       {
         title: "GIF",
         paragraph: "Turn still moments into fun, shareable animations that bring your memories to life.",
-        imageURL: gif1
+        imageURL: gifimg
       },
       {
         title: "Studio-Grade Lighting",
         paragraph: "Flawless, well-lit photos with professional lighting that makes every guest look their best.",
-        imageURL: packagedetail3
+        imageURL: lighting
       },
       {
         title: "Customizable Backdrops",
         paragraph: "A variety of elegant and themed backgrounds tailored to match your event’s aesthetic.",
-        imageURL: packagedetail1
+        imageURL: backdrop
       },
       {
         title: "Personalized Print Designs",
@@ -221,27 +229,27 @@ const items = [
       {
         title: "Secure Online Gallery",
         paragraph: "A private digital album where guests can view, download, and share their photos easily.",
-        imageURL: packagedetail1
+        imageURL: gallery
       },
       {
         title: "Hassle-Free Delivery & Setup",
         paragraph: "We handle everything from transport to assembly, ensuring a hassle-free, seamless experience for you.",
-        imageURL: packagedetail1
+        imageURL: delivery
       },
       {
         title: "Red Carpet and Bollards",
         paragraph: "Elevate the experience with a VIP entrance, creating a glamorous touch for your event.",
-        imageURL: packagedetail1
+        imageURL: redcarpet
       },
       {
         title: "Airdrop",
         paragraph: "Instant, wireless photo sharing for Apple users, making it easy to save and share moments.",
-        imageURL: packagedetail1
+        imageURL: airdrop
       },
       {
         title: "QR Code",
         paragraph: "Quick and convenient access to event photos, allowing guests to download their pictures instantly.",
-        imageURL: packagedetail1
+        imageURL: qrcodeimg
       }
     ]
   },
@@ -258,27 +266,27 @@ const items = [
       {
         title: "Trendy Props",
         paragraph: "A curated selection of stylish and playful props to add personality and creativity to every shot.",
-        imageURL: packagedetail2
+        imageURL: props
       },
       {
         title: "Studio-Grade Lighting",
         paragraph: "Flawless, well-lit photos with professional lighting that makes every guest look their best.",
-        imageURL: packagedetail3
+        imageURL: lighting
       },
       {
         title: "Red Carpet and Bollards",
         paragraph: "Elevate the experience with a VIP entrance, creating a glamorous touch for your event.",
-        imageURL: packagedetail1
+        imageURL: redcarpet
       },
       {
         title: "Hassle-Free Delivery & Setup",
         paragraph: "We handle everything from transport to assembly, ensuring a hassle-free, seamless experience for you.",
-        imageURL: packagedetail2
+        imageURL: delivery
       },
       {
         title: "Secure Online Gallery",
         paragraph: "A private digital album where guests can view, download, and share their photos easily.",
-        imageURL: packagedetail3
+        imageURL: gallery
       }
     ]
   },
@@ -315,22 +323,22 @@ const items = [
       {
         title: "Red Carpet and Bollards",
         paragraph: "Elevate the experience with a VIP entrance, creating a glamorous touch for your event.",
-        imageURL: packagedetail3
+        imageURL: redcarpet
       },
       {
         title: "Trendy Party Props",
         paragraph: "Fun and stylish props to bring personality and creativity to every video.",
-        imageURL: packagedetail1
+        imageURL: props
       },
       {
         title: "Secure Online Gallery",
         paragraph: "A private digital album where guests can access, download, and share their videos instantly.",
-        imageURL: packagedetail1
+        imageURL: gallery
       },
       {
         title: "Hassle-Free Delivery & Setup",
         paragraph: "We handle everything from transport to assembly, ensuring a hassle-free, seamless experience for you.",
-        imageURL: packagedetail1
+        imageURL: delivery
       }
     ]
   }
