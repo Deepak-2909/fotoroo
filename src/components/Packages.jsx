@@ -1,11 +1,12 @@
 import Package from "../Images/Package.png";
 import packageImage from "../Images/packageImage.png";
 import explorepackage from "../Images/explorepackage.png";
-import three60 from "../Images/package_360.png";
-import mirror from "../Images/package_mirror.jpg";
-import dslr from "../Images/package_dslr.jpg";
+import three60 from "../Images/packages/three60.png";
+import mirror from "../Images/packages/mirror.png";
+import dslr from "../Images/packages/dslr.png";
+import magazine from "../Images/packages/magazine.png";
 import { useNavigate } from "react-router-dom";
-import AddOns from "./AddOns";
+// import AddOns from "./AddOns";
 import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
 import { useState } from "react";
 
@@ -41,7 +42,7 @@ const booths = [
     price: "$300",
     description: "Feel like a cover star with this glamorous booth.",
     content: `Turn your guests into stars with the Magazine Booth. This setup creates stunning, magazine-worthy shots that make every attendee feel like a celebrity. A glamorous addition to any event.`,
-    image: explorepackage,
+    image: magazine,
     inclusions: [
       "A Photo Booth Attendant",
       "Trendy Props",
@@ -132,7 +133,7 @@ const Packages = () => {
                     </p>
                   ))} */}
                 </div>
-                {booth.inclusions && booth.id === 4 && (
+                {/* {booth.inclusions && booth.id === 4 && (
                   <div>
                     <button
                       className="text-blue-600 mt-2"
@@ -154,7 +155,7 @@ const Packages = () => {
                       </ul>
                     )}
                   </div>
-                )}
+                )} */}
                 {/* Button is pushed to the bottom */}
                 <button
                   className="btn block w-full mt-auto"

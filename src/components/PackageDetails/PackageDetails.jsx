@@ -3,15 +3,19 @@ import HomeImage from "../../Images/HomeImage.png";
 import packagedetail1 from "../../Images/packagedetail1.png";
 import packagedetail2 from "../../Images/packagedetail2.png";
 import packagedetail3 from "../../Images/packagedetail3.png";
-import props from "../../Images/props.jpg";
-import gifimg from "../../Images/gifimg.png";
-import qrcodeimg from "../../Images/qr.jpeg";
-import airdrop from "../../Images/airdrop.png";
-import redcarpet from "../../Images/red-carpet.jpg";
-import delivery from "../../Images/delivery.jpg";
-import gallery from "../../Images/secure_online_gallery.jpg";
-import backdrop from "../../Images/customizable_backdrop.png";
-import lighting from "../../Images/studio_grade_lighting.jpg";
+import props from "../../Images/packageDetails/props.png";
+import gifimg from "../../Images/packageDetails/gifimg.png";
+import qrcodeimg from "../../Images/packageDetails/qr.png";
+import airdrop from "../../Images/packageDetails/airdrop.png";
+import redcarpet from "../../Images/packageDetails/red-carpet.png";
+import delivery from "../../Images/packageDetails/delivery.png";
+import gallery from "../../Images/packageDetails/secure_online_gallery.png";
+import backdrop from "../../Images/packageDetails/customizable_backdrop.png";
+import lighting from "../../Images/packageDetails/studio_grade_lighting.png";
+import led from "../../Images/packageDetails/led.png";
+import overlays from "../../Images/packageDetails/overlays.png";
+import personalizePrints from "../../Images/packageDetails/personalize_prints.png";
+import bgm from "../../Images/packageDetails/bgm.png";
 import AddOns from "../AddOns";
 import { useEffect } from "react";
 
@@ -152,7 +156,7 @@ const items = [
       {
         title: "Personalized Print Designs",
         paragraph: "Custom overlays and templates to match your event theme, branding, or personal style.",
-        imageURL: packagedetail1
+        imageURL: personalizePrints
       },
       {
         title: "Secure Online Gallery",
@@ -224,7 +228,7 @@ const items = [
       {
         title: "Personalized Print Designs",
         paragraph: "Custom overlays and templates to match your event theme, branding, or personal style.",
-        imageURL: packagedetail1
+        imageURL: personalizePrints
       },
       {
         title: "Secure Online Gallery",
@@ -308,17 +312,17 @@ const items = [
       {
         title: "Custom Overlays",
         paragraph: "Personalized video overlays to match your event’s theme, branding, or unique style for a premium touch.",
-        imageURL: packagedetail3
+        imageURL: overlays
       },
       {
         title: "Colorful LED Tubes",
         paragraph: "Vibrant LED lighting adds an exciting visual effect, creating a dynamic and immersive video experience.",
-        imageURL: packagedetail1
+        imageURL: led
       },
       {
         title: "Custom Background Music",
         paragraph: "Enhance your 360 videos with personalized background music that matches the vibe of your event.",
-        imageURL: packagedetail2
+        imageURL: bgm
       },
       {
         title: "Red Carpet and Bollards",
