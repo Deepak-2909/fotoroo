@@ -99,10 +99,10 @@ const Packages = () => {
         </div>
       </div>
       <div className="container mx-auto">
-        <h1 className="text-center my-14 text-4xl md:text-6xl font-rig-solid">
+        {/* <h1 className="text-center my-14 text-4xl md:text-6xl font-rig-solid">
           Explore Our Packages
-        </h1>
-        <div className="mx-auto grid gap-12 sm:grid-cols-2 lg:grid-cols-3 max-w-7xl">
+        </h1> */}
+        <div className="mx-auto my-10 grid gap-12 sm:grid-cols-2 lg:grid-cols-3 max-w-7xl">
           {booths.map((booth) => (
             <Card
               key={booth.id}

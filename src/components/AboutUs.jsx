@@ -16,17 +16,17 @@ const AboutUs = () => {
             With our passion for creating unforgettable experiences, we ensure
             your celebration stands out. Whether it’s a wedding, birthday,
             corporate event, or any special occasion, our photo booths bring
-            joy, laughter, and unique keepsakes for you and your guests. We
+            joy, laughter, and unique keepsakes for you and your guests.<br />We
             proudly serve Sydney, Blue Mountains, and Wollongong, offering
             modern photo booth technology, personalized overlays, and a variety
             of backdrops to complement your theme. Our dedicated team makes the
             process seamless and stress-free, so you can focus on enjoying your
-            big day. Reach out to us today to start planning your
+            big day.<br />Reach out to us today to start planning your
             picture-perfect event—we can’t wait to be part of your special
             moments! 
           </p>
-          <p>Follow up - Automatic feedback updates on the website. 
-          </p>
+          {/* <p>Follow up - Automatic feedback updates on the website. 
+          </p> */}
         </div>
 
         {/* <img src={aboutUsGif} alt="" className="md:w-full h-96 " /> */}

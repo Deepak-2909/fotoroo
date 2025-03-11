@@ -1,5 +1,9 @@
 import { useParams } from "react-router"
 import HomeImage from "../../Images/HomeImage.png";
+import heroImage1 from "../../Images/packageDetails/heroImages/1.png";
+import heroImage2 from "../../Images/packageDetails/heroImages/2.png";
+import heroImage3 from "../../Images/packageDetails/heroImages/3.png";
+import heroImage4 from "../../Images/packageDetails/heroImages/4.png";
 import packagedetail1 from "../../Images/packagedetail1.png";
 import packagedetail2 from "../../Images/packagedetail2.png";
 import packagedetail3 from "../../Images/packagedetail3.png";
@@ -117,6 +121,7 @@ const items = [
     id: 1,
     name: "DSLR",
     price: "$200",
+    heroImg: heroImage1,
     details: [
       {
         title: "Photo Booth Attendant",
@@ -189,6 +194,7 @@ const items = [
     id: 2,
     name: "Mirror",
     price: "$200",
+    heroImg: heroImage2,
     details: [
       {
         title: "Photo Booth Attendant",
@@ -261,6 +267,7 @@ const items = [
     id: 4,
     name: "Magazine",
     price: "$250",
+    heroImg: heroImage4,
     details: [
       {
         title: "Photo Booth Attendant",
@@ -298,6 +305,7 @@ const items = [
     id: 3,
     name: "360",
     price: "$300",
+    heroImg: heroImage3,
     details: [
       {
         title: "Photo Booth Attendant",
@@ -368,7 +376,7 @@ const PackageDetails = () => {
                 <div key={packItem.id}>
                     <div className="relative"> 
                     <img
-                      src={HomeImage}
+                      src={packItem.heroImg}
                       className="md:w-[1500px]  my-5 md:h-[400px] h-[350px] flex justify-center overflow-hidden z-0"
                       alt="Home Image"
                     />
