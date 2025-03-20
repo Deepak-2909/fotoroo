@@ -127,6 +127,14 @@
   font-weight: 400;
   font-style: normal;
 }
+
+@font-face {
+  font-family: "Dhaks Regular";
+  src: url("../fonts/Dhaks/Dhaks-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 .swiper-slide {
   transition: all 0.3s ease;
   opacity: 0.4;

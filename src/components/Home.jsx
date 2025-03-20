@@ -13,11 +13,12 @@ const Home = () => {
 
   return (
     <section className="flex flex-col">
-      <div className="home" >
+      <div className="home mt-10 -mx-3 md:-mx-7 w-screen relative" >
         
-        <div className="my-10 flex justify-center rounded-lg overflow-hidden">
+        <div className="w-full">
          <video src={videoHome} 
-            className="md:w-[1500px] sm:h-[600px]  object-fill"
+            // className="md:w-[1500px] sm:h-[600px]  object-fill"
+            className="w-screen h-auto object-cover m-0 p-0"
         
             autoPlay 
             loop 

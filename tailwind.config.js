@@ -122,7 +122,11 @@ export default {
         'courgette': [
           'Courgette', 
           'serif'
-        ]
+        ],
+		dhaks: [
+			"Dhaks Regular", 
+			"sans-serif"
+		]
   		}
   	}
   },

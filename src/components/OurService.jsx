@@ -26,8 +26,9 @@ const OurService = () => {
   ];
 
   return (
-    <section className="ourservice flex flex-col mb-10 items-center w-full">
-      <h1  className="font-pinyon text-4xl text-textCol lg:text-6xl">Our Servicing Areas</h1>
+    <section className="ourservice flex flex-col my-10 items-center w-full">
+      {/* <h1  className="font-pinyon text-4xl text-textCol lg:text-6xl">Our Servicing Areas</h1> */}
+      <h1  className="font-dhaks text-4xl text-textCol lg:text-6xl">Our Servicing Areas</h1>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-10 md:px-24 w-full mt-10">
         {destinations.map((destination) => (
           <div

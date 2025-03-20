@@ -13,7 +13,8 @@ const ExploreOurBooths = () => {
   return (
     <section className="my-10 lg:px-20 ">
       <div>
-        <h1 className="text-3xl lg:text-6xl lg:font-pinyon font-rig-solid  md:text-black text-center mb-10">
+        {/* <h1 className="text-3xl lg:text-6xl lg:font-pinyon font-rig-solid  md:text-black text-center mb-10"> */}
+        <h1 className="text-3xl lg:text-6xl lg:font-dhaks font-dhaks  md:text-black text-center mb-10">
           Explore our Booths
         </h1>
       </div>

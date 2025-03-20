@@ -57,7 +57,8 @@ const EventCompleted = () => {
     <section className="flex flex-col md:my-16 my-2 items-center">
       <div className="overflow-hidden w-full">
         <h1 
-          className="md:font-pinyon font-rig-solid text-center text-4xl md:text-6xl"
+          // className="md:font-pinyon font-rig-solid text-center text-4xl md:text-6xl"
+          className="md:font-dhaks font-rig-solid text-center text-4xl md:text-6xl"
           
         >
           Events Completed

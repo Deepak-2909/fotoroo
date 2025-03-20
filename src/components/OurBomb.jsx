@@ -4,7 +4,8 @@ const OurBomb = () => {
   return (
     <section className="flex lg:justify-between md:gap-20 lg:flex-row flex-col lg:items-center lg:px-24 w-full my-10">
       <div className="text-center md:text-start">
-        <h1 className="md:text-[55px] md:uppercase font-pinyon text-5xl md:font-rig-solid">
+        {/* <h1 className="md:text-[55px] md:uppercase font-pinyon text-5xl md:font-rig-solid"> */}
+        <h1 className="md:text-[55px] md:uppercase font-dhaks text-5xl md:font-dhaks">
           Freeze the Fun, Frame the Magic
         </h1>
         <p className="border-b border-black md:w-[640px] my-4" />

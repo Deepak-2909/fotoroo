@@ -14,7 +14,8 @@ const CaptureMemories = () => {
 
         
         <div className="text-center lg:w-[550px] w-full mx-auto  text-white">
-          <h1 className="text-5xl  mb-5 lg:leading-[60px] leading-[50px] font-pinyon md:font-rig-solid">
+          {/* <h1 className="text-5xl  mb-5 lg:leading-[60px] leading-[50px] font-pinyon md:font-rig-solid"> */}
+          <h1 className="text-5xl  mb-5 lg:leading-[60px] leading-[50px] font-dhaks md:font-dhaks">
             Capture Memories with Style
           </h1>
           <p className="font-baskerville text-lg leading-5">
