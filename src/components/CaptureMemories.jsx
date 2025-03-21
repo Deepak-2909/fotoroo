@@ -18,7 +18,7 @@ const CaptureMemories = () => {
           <h1 className="text-5xl  mb-5 lg:leading-[60px] leading-[50px] font-dhaks md:font-dhaks">
             Capture Memories with Style
           </h1>
-          <p className="font-baskerville text-lg leading-5">
+          <p className="font-rische text-lg leading-5">
             Elevate your event with the ultimate photo booth experience! Our
             cutting-edge photobooth combines sleek design and interactive
             technology, captivating guests with vibrant animations and an

@@ -135,6 +135,13 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "Rische Demo";
+  src: url("../fonts/Rische/rische-demo.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 .swiper-slide {
   transition: all 0.3s ease;
   opacity: 0.4;

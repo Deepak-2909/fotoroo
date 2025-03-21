@@ -9,7 +9,7 @@ const OurBomb = () => {
           Freeze the Fun, Frame the Magic
         </h1>
         <p className="border-b border-black md:w-[640px] my-4" />
-        <div className="text-textCol lg:text-xl text-base font-p  laywrite font-medium">
+        <div className="text-textCol lg:text-xl text-base font-rische  laywrite font-medium">
           <p className="my-4 ">
             At FotoRoo, we don’t just capture moments—we turn them into
             unforgettable masterpieces. Every click is a memory, every pose a

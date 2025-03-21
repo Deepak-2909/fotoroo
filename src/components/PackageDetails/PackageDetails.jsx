@@ -380,8 +380,8 @@ const PackageDetails = () => {
                       className="md:w-[1500px]  my-5 md:h-[400px] h-[350px] flex justify-center overflow-hidden z-0"
                       alt="Home Image"
                     />
-                    <p className="absolute inset-0 flex items-center md:text-8xl font-baskerville tracking-tighter justify-center  text-white text-3xl ">
-                      {packItem.name} <span className="font-pinyon md:pl-3 pl-1 md:text-8xl mt-4 tracking-tight">Booth</span>
+                    <p className="absolute inset-0 flex items-center md:text-8xl font-dhaks tracking-tighter justify-center  text-white text-3xl ">
+                      {packItem.name} <span className="font-dhaks md:pl-3 pl-1 md:text-8xl mt-4 tracking-tight">Booth</span>
                     </p>
                   </div>
                   <div>
@@ -391,8 +391,8 @@ const PackageDetails = () => {
                         index % 2 === 0 ? "md:flex-row-reverse md:items-center flex-col-reverse" : "md:flex-row md:items-center flex-col-reverse" 
                       }`}>
                         <div className="md:w-2/5 mx-auto text-center md:text-start my-9 md:my-0">
-                        <h2 className="text-xl my-4 md:text-4xl font-rig-solid">{item.title}</h2>
-                        <p className="font-courgette font-medium md:text-lg leading-5 text-textCol md:w-4/5">{item.paragraph}</p>
+                        <h2 className="text-xl my-4 md:text-4xl font-dhaks">{item.title}</h2>
+                        <p className="font-rische font-rische md:text-lg leading-5 text-textCol md:w-4/5">{item.paragraph}</p>
                         </div>
                         <div className="md:w-2/4 ">
                         <img src={item.imageURL} alt={item.title} className="w-full object-cover" /></div>
@@ -403,7 +403,7 @@ const PackageDetails = () => {
                 </div>
             )))}
 
-<h2 className="text-4xl md:text-6xl font-pinyon text-center mt-16">
+<h2 className="text-4xl md:text-6xl font-dhaks text-center mt-16">
         Add Ons
       </h2>
       <div className="grid ">

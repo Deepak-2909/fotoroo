@@ -42,7 +42,7 @@ const OurService = () => {
                 className="hover:scale-110 transition-transform duration-300 w-full h-[200px] object-cover"
               />
             </div>
-            <p className="my-5 text-xl uppercase font-baskerville font-extralight">
+            <p className="my-5 text-xl uppercase font-rische font-extralight">
               {destination.name}
             </p>
           </div>

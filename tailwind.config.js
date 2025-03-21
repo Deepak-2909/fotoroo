@@ -126,7 +126,8 @@ export default {
 		dhaks: [
 			"Dhaks Regular", 
 			"sans-serif"
-		]
+		],
+		rische: ["Rische Medium", "sans-serif"]
   		}
   	}
   },

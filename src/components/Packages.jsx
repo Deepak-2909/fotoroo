@@ -70,9 +70,10 @@ const Packages = () => {
           className="md:w-[1500px] rounded-lg   my-5 md:h-[400px]  flex justify-center overflow-hidden z-0"
           alt="Home Image"
         />
-        <p className="absolute inset-0 flex items-center md:text-8xl font-baskerville font- md:font-pinyon justify-center  text-white text-3xl ">
+        {/* <p className="absolute inset-0 flex items-center md:text-8xl font-baskerville font- md:font-pinyon justify-center  text-white text-3xl "> */}
+        <p className="absolute inset-0 flex items-center md:text-8xl font-dhaks font- md:font-dhaks justify-center  text-white text-3xl ">
           Our{" "}
-          <span className="font-baskerville uppercase md:pl-3 pl-1 md:text-7xl">
+          <span className="font-dhaks uppercase md:pl-3 pl-1 md:text-7xl">
             Packages
           </span>
         </p>
@@ -83,7 +84,7 @@ const Packages = () => {
           alt=""
           className="hidden md:block md:w-auto w-10 "
         />
-        <div className="flex-col px-7 md:w-auto py-5 rounded-xl lg:text-lg text-white font-baskerville bg-bgSecond">
+        <div className="flex-col px-7 md:w-auto py-5 rounded-xl lg:text-lg text-white font-rische bg-bgSecond">
           <p>
             Capture timeless moments with FotoRoo’s premium photo booth
             packages, including our unique Magazine Booth. Enjoy unlimited

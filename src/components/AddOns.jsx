@@ -1,5 +1,5 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import Audio from "../Images/addOns/Audio.png"
+// import Audio from "../Images/addOns/Audio.png"
 import AudioGB from "../Images/addOns/package_AudioGuestBook.png";
 
 export default function AddOns() {
@@ -35,11 +35,11 @@ Ditch the pen. Dial in the magic.
               className={`flex my-5 flex-col-reverse sm:px-24 md:flex-row ${index % 2 === 0 ? "md:flex-row" : "md:flex-row-reverse"}`}
             >
               <div className="md:w-2/5 mx-auto text-center md:text-start my-9 md:my-0">
-                <h2 className="text-xl my-4 md:text-4xl font-rig-solid">{booth.title}</h2>
-                <p className="font-courgette font-semibold md:text-lg leading-5 text-textCol md:w-4/5 mb-4">
+                <h2 className="text-xl my-4 md:text-4xl font-dhaks">{booth.title}</h2>
+                <p className="font-rische font-semibold md:text-lg leading-5 text-textCol md:w-4/5 mb-4">
                   {booth.description}
                 </p>
-                <p className="font-courgette font-medium md:text-lg leading-5 text-textCol md:w-4/5 whitespace-pre-line">
+                <p className="font-rische font-medium md:text-lg leading-5 text-textCol md:w-4/5 whitespace-pre-line">
                   {booth.content}
                 </p>
               </div>
