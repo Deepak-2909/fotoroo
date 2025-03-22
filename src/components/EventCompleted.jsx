@@ -58,7 +58,8 @@ const EventCompleted = () => {
       <div className="overflow-hidden w-full">
         <h1 
           // className="md:font-pinyon font-rig-solid text-center text-4xl md:text-6xl"
-          className="md:font-dhaks font-rig-solid text-center text-4xl md:text-6xl"
+          // className="md:font-dhaks font-rig-solid text-center text-4xl md:text-6xl"
+          className="md:text-[55px] md:uppercase font-dhaks text-5xl md:font-dhaks text-center"
           
         >
           Events Completed

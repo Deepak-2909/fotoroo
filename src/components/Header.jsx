@@ -21,9 +21,11 @@ const Header = () => {
     <div className="pt-5  mx-auto flex items-center justify-between">
       
       <div>
-        <h2 className="w-52 h-11 md:text-4xl text-3xl flex items-center font-rig-solid">
-          FOTOROO
-        </h2>
+        <Link to="/">
+          <h2 className="w-52 h-11 md:text-4xl text-3xl flex items-center font-rig-solid">
+            FOTOROO
+          </h2>
+        </Link>
       </div>
 
      

@@ -380,8 +380,8 @@ const PackageDetails = () => {
                       className="md:w-[1500px]  my-5 md:h-[400px] h-[350px] flex justify-center overflow-hidden z-0"
                       alt="Home Image"
                     />
-                    <p className="absolute inset-0 flex items-center md:text-8xl font-dhaks tracking-tighter justify-center  text-white text-3xl ">
-                      {packItem.name} <span className="font-dhaks md:pl-3 pl-1 md:text-8xl mt-4 tracking-tight">Booth</span>
+                    <p className="absolute inset-0 flex items-center md:text-[55px] md:uppercase font-dhaks text-5xl md:font-dhaks tracking-tighter justify-center  text-white ">
+                      {packItem.name} <span className="md:text-[55px] md:uppercase font-dhaks text-5xl md:font-dhaks md:pl-3 pl-1 mt-4 tracking-tight">Booth</span>
                     </p>
                   </div>
                   <div>
@@ -403,7 +403,7 @@ const PackageDetails = () => {
                 </div>
             )))}
 
-<h2 className="text-4xl md:text-6xl font-dhaks text-center mt-16">
+<h2 className="md:text-[55px] md:uppercase font-dhaks text-5xl md:font-dhaks text-center mt-16">
         Add Ons
       </h2>
       <div className="grid ">

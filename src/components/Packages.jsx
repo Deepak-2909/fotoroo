@@ -71,9 +71,9 @@ const Packages = () => {
           alt="Home Image"
         />
         {/* <p className="absolute inset-0 flex items-center md:text-8xl font-baskerville font- md:font-pinyon justify-center  text-white text-3xl "> */}
-        <p className="absolute inset-0 flex items-center md:text-8xl font-dhaks font- md:font-dhaks justify-center  text-white text-3xl ">
+        <p className="absolute inset-0 flex items-center md:text-[55px] md:uppercase font-dhaks text-5xl md:font-dhaks justify-center  text-white ">
           Our{" "}
-          <span className="font-dhaks uppercase md:pl-3 pl-1 md:text-7xl">
+          <span className="md:text-[55px] md:uppercase font-dhaks text-5xl md:font-dhaks md:pl-3 pl-1">
             Packages
           </span>
         </p>

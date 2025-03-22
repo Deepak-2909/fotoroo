@@ -25,7 +25,7 @@ const CaptureMemories = () => {
             intuitive touch-screen interface. More than just a photobooth, it’s
             a fun and memorable centerpiece for any occasion.
           </p>
-          <button onClick={()=> navigate("/backdrop")} className="text-textCol bg-bgPrimary hover:text-textCol hover:bg-bgSecond text-base px-8 rounded-sm py-2.5 border-2 mt-5 font-medium border-transparent hover:border-textCol duration-300">Book Now</button>
+          <button onClick={()=> navigate("/enquire")} className="text-textCol bg-bgPrimary hover:text-textCol hover:bg-bgSecond text-base px-8 rounded-sm py-2.5 border-2 mt-5 font-medium border-transparent hover:border-textCol duration-300">Book Now</button>
         </div>
 
        

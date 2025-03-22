@@ -35,7 +35,7 @@ const Testimonials = () => {
   return (
     <section className="flex flex-col items-center mt-16">
       {/* <h1 className="font-pinyon text-6xl mb-10">Testimonials</h1> */}
-      <h1 className="font-dhaks text-6xl mb-10">Testimonials</h1>
+      <h1 className="md:text-[55px] md:uppercase font-dhaks text-5xl md:font-dhaks mb-10">Testimonials</h1>
       <div className="relative h-80 w-full overflow-hidden">
         <div className="animate-marquee flex gap-6" style={{ width: `${reviews.length * 300 * 2}px` }}>
           {reviews.concat(reviews).map((testimonial, index) => (

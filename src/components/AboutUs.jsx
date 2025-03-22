@@ -3,8 +3,8 @@ import aboutUsGif from "../Images/aboutUs.mp4";
 const AboutUs = () => {
   return (
     <section>
-      <h1 className="text-textCol md:text-8xl text-5xl text-center font-dhaks my-10">
-        About <span className="font-dhaks">US</span>
+      <h1 className="text-textCol md:text-[55px] md:uppercase font-dhaks text-5xl md:font-dhaks text-center my-10">
+        About <span className="md:text-[55px] md:uppercase font-dhaks text-5xl md:font-dhaks">US</span>
       </h1>
       <div className="flex md:flex-row flex-col-reverse  gap-4 mx-auto">
         <div className="flex-col px-7 md:w-full text-bgSecond rounded-xl lg:text-lg  ">

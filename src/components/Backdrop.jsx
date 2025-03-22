@@ -42,9 +42,9 @@ const Backdrop = () => {
           className="md:w-[1500px] opacity-100 rounded-lg  hover:scale-110 transition-transform duration-300  my-5 md:h-[400px]  flex justify-center  z-0"
           alt="Home Image"
         />
-        <p className="absolute inset-0 flex items-center md:text-8xl font-dhaks font- md:font-dhaks justify-center  text-white text-3xl ">
+        <p className="absolute inset-0 flex items-center md:text-[55px] md:uppercase font-dhaks text-5xl md:font-dhaks justify-center  text-white ">
           Our{" "}
-          <span className="font-dhaks uppercase md:pl-3 pl-1 md:text-7xl">
+          <span className="md:text-[55px] md:uppercase font-dhaks text-5xl md:font-dhaks md:pl-3 pl-1 ">
             Backdrops
           </span>
         </p>
