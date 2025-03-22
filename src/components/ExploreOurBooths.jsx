@@ -29,7 +29,7 @@ const ExploreOurBooths = () => {
               Snap, sign, and shine with custom overlays and instant prints. Step up, strike a pose, and watch the magic unfold!
 
             </p>
-            <button className="btn block" onClick={() => navigate("/packages")}>Book Now</button>
+            <button className="btn block" onClick={() => navigate("/packages/2")}>Book Now</button>
           </div>
         </div>
         <div className="flex lg:flex-row my-10 flex-col-reverse lg:justify-evenly lg:items-center lg:mt-10">
@@ -38,7 +38,7 @@ const ExploreOurBooths = () => {
             <h2 className="lg:pb-7 py-5 text-2xl">DSLR Booth</h2>
             <p className="text-lg ">Timeless, Frame by Frame! Crisp, clear, and classic. Our DSLR Booth delivers studio-quality snapshots with a touch of fun. Strike a pose, choose your backdrop, and let the pro-grade camera do the rest—because every detail deserves to shine.
             </p>
-            <button className="btn block" onClick={() => navigate("/packages")}>Book Now</button>
+            <button className="btn block" onClick={() => navigate("/packages/1")}>Book Now</button>
           </div>
           <img src={DSLR} alt="explore image" className="md:w-[456px]" />
         </div>
@@ -59,7 +59,7 @@ const ExploreOurBooths = () => {
             <h2 className="lg:pb-7 py-5 text-2xl">360 Booth</h2>
             <p className="text-lg "> Every Angle, Every Moment! Why take one shot when you can have them all? Step onto the platform, let the camera spin, and capture the magic in motion. Slow-mo, boomerang, or a full cinematic spin—your moment, your way.
             </p>
-            <button className="btn block " onClick={() => navigate("/packages")}>Book Now</button>
+            <button className="btn block " onClick={() => navigate("/packages/3")}>Book Now</button>
           </div>
         </div>
 
@@ -70,7 +70,7 @@ const ExploreOurBooths = () => {
             <p className="text-lg ">Every Frame, Cover-Worthy! Step into the spotlight and onto the cover. With flawless lighting and editorial-style flair, FotoRoo’s Magazine Booth transforms every shot into an editorial masterpiece. Instant. Iconic. Unforgettable.
 
             </p>
-            <button className="btn block" onClick={() => navigate("/packages")}>Book Now</button>
+            <button className="btn block" onClick={() => navigate("/packages/4")}>Book Now</button>
           </div>
           <img src={MagazineBooth1} alt="explore image" className="md:w-[456px]" />
         </div>

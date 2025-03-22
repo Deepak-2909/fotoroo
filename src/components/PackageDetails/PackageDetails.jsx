@@ -377,7 +377,8 @@ const PackageDetails = () => {
                     <div className="relative"> 
                     <img
                       src={packItem.heroImg}
-                      className="md:w-[1500px]  my-5 md:h-[400px] h-[350px] flex justify-center overflow-hidden z-0"
+                      // className="md:w-[1500px]  my-5 md:h-[400px] h-[350px] flex justify-center overflow-hidden z-0"
+                      className="md:w-[1500px] rounded-lg   my-5 md:h-[400px]  flex justify-center overflow-hidden z-0"
                       alt="Home Image"
                     />
                     <p className="absolute inset-0 flex items-center md:text-[55px] md:uppercase font-dhaks text-5xl md:font-dhaks tracking-tighter justify-center  text-white ">
@@ -391,8 +392,8 @@ const PackageDetails = () => {
                         index % 2 === 0 ? "md:flex-row-reverse md:items-center flex-col-reverse" : "md:flex-row md:items-center flex-col-reverse" 
                       }`}>
                         <div className="md:w-2/5 mx-auto text-center md:text-start my-9 md:my-0">
-                        <h2 className="text-xl my-4 md:text-4xl font-dhaks">{item.title}</h2>
-                        <p className="font-rische font-rische md:text-lg leading-5 text-textCol md:w-4/5">{item.paragraph}</p>
+                        <h2 className="text-2xl md:my-4 my-2 md:text-4xl font-dhaks">{item.title}</h2>
+                        <p className="font-rische md:font-rische md:text-lg leading-5 text-textCol md:w-4/5">{item.paragraph}</p>
                         </div>
                         <div className="md:w-2/4 ">
                         <img src={item.imageURL} alt={item.title} className="w-full object-cover" /></div>
