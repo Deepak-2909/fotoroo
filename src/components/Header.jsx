@@ -22,7 +22,7 @@ const Header = () => {
       
       <div>
         <Link to="/">
-          <h2 className="w-52 h-11 md:text-4xl text-3xl flex items-center font-rig-solid">
+          <h2 className="w-52 h-11 md:text-4xl lg:text-5xl xl:text-6xl text-3xl flex items-center font-rig-solid">
             FOTOROO
           </h2>
         </Link>
@@ -31,7 +31,7 @@ const Header = () => {
      
       <div>
         
-        <div className="hidden md:flex items-center list-none gap-7 cursor-pointer text-sm text-[#694223]">
+        <div className="hidden md:flex items-center list-none gap-7 cursor-pointer text-sm md:text-lg lg:text-xl xl:text-2xl text-[#694223]">
           {menuItems.map((item, index) => (
             <li key={index}>
               <Link to={item.path}>{item.name}</Link>
@@ -58,7 +58,7 @@ const Header = () => {
      
       {menuVisible && (
         <div className="absolute z-10 top-16 right-5 bg-white shadow-md p-4 rounded-md md:hidden">
-          <ul className="flex flex-col gap-4 list-none text-sm text-[#694223]">
+          <ul className="flex flex-col gap-4 list-none text-sm md:text-lg lg:text-xl xl:text-2xl text-[#694223]">
             {menuItems.map((item, index) => (
               <li key={index}>
                 <Link to={item.path} onClick={() => setMenuVisible(false)}>

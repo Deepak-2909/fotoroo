@@ -68,7 +68,7 @@ const BookNow = () => {
       </div>
 
       <div className="md:w-[50%]">
-        <h1 className={`md:text-[55px] md:uppercase font-dhaks text-5xl md:font-dhaks text-center md:text-start ${location.pathname === "/enquire" ? "mt-5" : ""}`}>
+        <h1 className={`md:text-[55px] lg:text-[70px] xl:text-[85px] uppercase font-dhaks text-5xl text-center md:text-start ${location.pathname === "/enquire" ? "mt-5" : ""}`}>
           {location.pathname === "/enquire" ? "Please Fill This Form" : "Book Now"}
         </h1>
 

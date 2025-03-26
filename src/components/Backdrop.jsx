@@ -39,40 +39,20 @@ const Backdrop = () => {
       <div className="relative">
         <img
           src={backdrops}
-          className="md:w-[1500px] opacity-100 rounded-lg  hover:scale-110 transition-transform duration-300  my-5 md:h-[400px]  flex justify-center  z-0"
+          // className="md:w-[1500px] opacity-100 rounded-lg  hover:scale-110 transition-transform duration-300  my-5 md:h-[400px]  flex justify-center  z-0"
+          className="w-full rounded-lg my-5 h-auto max-h-[400px] flex justify-center overflow-hidden z-0"
           alt="Home Image"
         />
-        <p className="absolute inset-0 flex items-center md:text-[55px] md:uppercase font-dhaks text-5xl md:font-dhaks justify-center  text-white ">
+        <p className="absolute inset-0 flex items-center md:text-[55px] lg:text-[70px] xl:text-[85px] uppercase font-dhaks text-5xl justify-center text-white ">
           Our{" "}
-          <span className="md:text-[55px] md:uppercase font-dhaks text-5xl md:font-dhaks md:pl-3 pl-1 ">
+          <span className="md:text-[55px] lg:text-[70px] xl:text-[85px] uppercase font-dhaks text-5xl md:font-dhaks md:pl-3 pl-1 ">
             Backdrops
           </span>
         </p>
       </div>
-      {/* <div className=" hidden md:flex md:w-[90%] gap-10 mx-auto">
-        <img
-          src={packageImage}
-          alt=""
-          className="hidden md:block md:w-auto w-10 "
-        />
-        <div className="flex-col px-7 md:w-auto py-5 rounded-xl lg:text-lg text-white font-baskerville bg-bgSecond">
-          <p>
-            At FotoRoo, we offer a stunning range of backdrops to elevate your
-            photo booth experience. From elegant designs to vibrant themes, our
-            backdrops are carefully curated to complement any event style.
-            Whether you &apos;re planning a wedding, party, or corporate event, our
-            versatile options ensure the perfect setting for unforgettable
-            photos. Let us help you create a picture-perfect backdrop for your
-            special moments!
-          </p>
-          
-        </div>
-      </div> */}
-
+      
       <div className="my-10">
-        {/* <h1 className="text-center my-5 text-4xl md:text-6xl font-pinyon">
-        Explore Our Backdrops
-        </h1> */}
+        
         <div className="grid px-2 md:px-0 grid-cols-1 md:grid-cols-3 gap-8 mb-16">
           {Backdrops.map((booth) => (
             <div
@@ -86,8 +66,8 @@ const Backdrop = () => {
                   className="w-auto md:h-96 object-cover hover:scale-110 transition-transform duration-300  rounded-lg overflow-hidden "
                 />
               </div>
-              <div className="p-4">
-                <h3 className="text-lg font-rische font-semibold mb-2">{booth.name}</h3>
+              <div className="p-4 flex flex-col items-center text-center">
+                <h3 className="text-lg lg:text-xl xl:text-2xl font-rische font-semibold mb-2">{booth.name}</h3>
                 <p className="text-gray-600 mb-4">{booth.price}</p>
                 <button
                   className="btn block"

@@ -378,11 +378,12 @@ const PackageDetails = () => {
                     <img
                       src={packItem.heroImg}
                       // className="md:w-[1500px]  my-5 md:h-[400px] h-[350px] flex justify-center overflow-hidden z-0"
-                      className="md:w-[1500px] rounded-lg   my-5 md:h-[400px]  flex justify-center overflow-hidden z-0"
+                      // className="md:w-[1500px] rounded-lg   my-5 md:h-[400px]  flex justify-center overflow-hidden z-0"
+                      className="w-full rounded-lg my-5 h-auto max-h-[400px]ßß flex justify-center overflow-hidden z-0"
                       alt="Home Image"
                     />
-                    <p className="absolute inset-0 flex items-center md:text-[55px] md:uppercase font-dhaks text-5xl md:font-dhaks tracking-tighter justify-center  text-white ">
-                      {packItem.name} <span className="md:text-[55px] md:uppercase font-dhaks text-5xl md:font-dhaks md:pl-3 pl-1 mt-4 tracking-tight">Booth</span>
+                    <p className="absolute inset-0 flex items-center md:text-[55px] lg:text-[70px] xl:text-[85px] uppercase font-dhaks text-5xl tracking-tighter justify-center  text-white ">
+                      {packItem.name} <span className="md:text-[55px] lg:text-[70px] xl:text-[85px] uppercase font-dhaks text-5xl  md:pl-3 pl-1 mt-4 tracking-tight">Booth</span>
                     </p>
                   </div>
                   <div>
@@ -392,8 +393,8 @@ const PackageDetails = () => {
                         index % 2 === 0 ? "md:flex-row-reverse md:items-center flex-col-reverse" : "md:flex-row md:items-center flex-col-reverse" 
                       }`}>
                         <div className="md:w-2/5 mx-auto text-center md:text-start my-9 md:my-0">
-                        <h2 className="text-2xl md:my-4 my-2 md:text-4xl font-dhaks">{item.title}</h2>
-                        <p className="font-rische md:font-rische md:text-lg leading-5 text-textCol md:w-4/5">{item.paragraph}</p>
+                        <h2 className="text-2xl md:my-4 my-2 md:text-4xl lg:text-3xl xl:text-4xl font-dhaks">{item.title}</h2>
+                        <p className="font-rische text-lg lg:text-xl xl:text-2xl leading-5 text-textCol md:w-4/5 lg:w-3/5">{item.paragraph}</p>
                         </div>
                         <div className="md:w-2/4 ">
                         <img src={item.imageURL} alt={item.title} className="w-full object-cover" /></div>
@@ -404,7 +405,7 @@ const PackageDetails = () => {
                 </div>
             )))}
 
-<h2 className="md:text-[55px] md:uppercase font-dhaks text-5xl md:font-dhaks text-center mt-16">
+<h2 className="md:text-[55px] lg:text-[70px] xl:text-[85px] uppercase font-dhaks text-5xl text-center mt-16">
         Add Ons
       </h2>
       <div className="grid ">

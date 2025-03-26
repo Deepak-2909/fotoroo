@@ -67,13 +67,14 @@ const Packages = () => {
       <div className="relative">
         <img
           src={Package}
-          className="md:w-[1500px] rounded-lg   my-5 md:h-[400px]  flex justify-center overflow-hidden z-0"
+          // className="md:w-[1500px] rounded-lg my-5 md:h-[400px] flex justify-center overflow-hidden z-0"
+          className="w-full rounded-lg my-5 h-auto max-h-[400px] flex justify-center overflow-hidden z-0"
           alt="Home Image"
         />
         {/* <p className="absolute inset-0 flex items-center md:text-8xl font-baskerville font- md:font-pinyon justify-center  text-white text-3xl "> */}
-        <p className="absolute inset-0 flex items-center md:text-[55px] md:uppercase font-dhaks text-5xl md:font-dhaks justify-center  text-white ">
+        <p className="absolute inset-0 flex items-center md:text-[55px] lg:text-[70px] xl:text-[85px] uppercase font-dhaks text-5xl justify-center  text-white ">
           Our{" "}
-          <span className="md:text-[55px] md:uppercase font-dhaks text-5xl md:font-dhaks md:pl-3 pl-1">
+          <span className="md:text-[55px] lg:text-[70px] xl:text-[85px] uppercase font-dhaks text-5xl md:pl-3 pl-1">
             Packages
           </span>
         </p>
@@ -84,7 +85,7 @@ const Packages = () => {
           alt=""
           className="hidden md:block md:w-auto w-10 "
         />
-        <div className="flex-col px-7 md:w-auto py-5 rounded-xl lg:text-lg text-white font-rische bg-bgSecond">
+        <div className="flex-col px-7 md:w-auto py-5 rounded-xl text-lg lg:text-xl xl:text-2xl text-white font-rische bg-bgSecond">
           <p>
             Capture timeless moments with FotoRoo’s premium photo booth
             packages, including our unique Magazine Booth. Enjoy unlimited
@@ -117,10 +118,10 @@ const Packages = () => {
                 />
               </div>
               <CardHeader className="flex flex-col items-start">
-                <CardTitle className="text-xl font-bold mb-2">
+                <CardTitle className="text-xl lg:text-2xl xl:text-3xl font-bold mb-2">
                   {booth.name}
                 </CardTitle>
-                <p className="text-sm text-muted-foreground italic mb-2">
+                <p className="text-sm lg:text-lg xl:text-xl text-muted-foreground italic mb-2">
                   {booth.description}
                 </p>
                 {/* <p className="text-base font-semibold">{booth.price}</p> */}

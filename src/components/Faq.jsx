@@ -45,7 +45,7 @@ const Faq = () => {
   return (
     <section className="md:w-11/12 mx-auto">
         {/* <h1 className="font-pinyon text-4xl text-center my-5 md:mb-10 md:text-6xl">FAQs</h1> */}
-        <h1 className="md:text-[55px] md:uppercase font-dhaks text-5xl md:font-dhaks text-center my-5 md:mb-10">FAQs</h1>
+        <h1 className="md:text-[55px] lg:text-[70px] xl:text-[85px] uppercase font-dhaks text-5xl text-center my-5 md:mb-10">FAQs</h1>
     <Accordion type="single" collapsible className="font-rische">
     {faqs.map((faq, index) => (
       <AccordionItem key={index} value={`item-${index + 1}`} >

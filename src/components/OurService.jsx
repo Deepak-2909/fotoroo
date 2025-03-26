@@ -29,7 +29,7 @@ const OurService = () => {
     <section className="ourservice flex flex-col my-10 items-center w-full">
       {/* <h1  className="font-pinyon text-4xl text-textCol lg:text-6xl">Our Servicing Areas</h1> */}
       {/* <h1  className="font-dhaks text-4xl text-textCol lg:text-6xl">Our Servicing Areas</h1> */}
-      <h1  className="md:text-[55px] md:uppercase font-dhaks text-5xl md:font-dhaks">Our Servicing Areas</h1>
+      <h1  className="md:text-[55px] lg:text-[70px] xl:text-[85px] uppercase font-dhaks text-5xl ">Our Servicing Areas</h1>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-10 md:px-24 w-full mt-10">
         {destinations.map((destination) => (
           <div
@@ -43,7 +43,7 @@ const OurService = () => {
                 className="hover:scale-110 transition-transform duration-300 w-full h-[200px] object-cover"
               />
             </div>
-            <p className="my-5 text-xl uppercase font-rische font-extralight">
+            <p className="my-5 text-xl lg:text-2xl xl:text-3xl uppercase font-rische font-extralight">
               {destination.name}
             </p>
           </div>

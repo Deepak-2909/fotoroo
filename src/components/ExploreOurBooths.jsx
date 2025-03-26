@@ -15,7 +15,7 @@ const ExploreOurBooths = () => {
       <div>
         {/* <h1 className="text-3xl lg:text-6xl lg:font-pinyon font-rig-solid  md:text-black text-center mb-10"> */}
         {/* <h1 className="text-3xl lg:text-6xl lg:font-dhaks font-dhaks  md:text-black text-center mb-10"> */}
-        <h1 className="md:text-[55px] md:uppercase font-dhaks text-5xl md:font-dhaks text-center mb-10">
+        <h1 className="md:text-[55px] lg:text-[70px] xl:text-[85px] uppercase font-dhaks text-5xl text-center mb-10">
           Explore our Booths
         </h1>
       </div>
@@ -24,7 +24,7 @@ const ExploreOurBooths = () => {
           <img src={MirrorBooth1} alt="explore image" className="md:w-[456px]" />
           <div className="lg:w-[26rem] w-full mr-10">
             <h2 className="lg:pb-7 py-5 text-2xl">Mirror Boot</h2>
-            <p className="text-lg ">
+            <p className="text-lg lg:text-xl xl:text-2xl">
               Your Reflection, Redefined! A statement piece, a conversation starter, and a photo booth like no other.
               Snap, sign, and shine with custom overlays and instant prints. Step up, strike a pose, and watch the magic unfold!
 
@@ -36,7 +36,7 @@ const ExploreOurBooths = () => {
 
           <div className="lg:w-[26rem] w-full mr-10">
             <h2 className="lg:pb-7 py-5 text-2xl">DSLR Booth</h2>
-            <p className="text-lg ">Timeless, Frame by Frame! Crisp, clear, and classic. Our DSLR Booth delivers studio-quality snapshots with a touch of fun. Strike a pose, choose your backdrop, and let the pro-grade camera do the rest—because every detail deserves to shine.
+            <p className="text-lg lg:text-xl xl:text-2xl">Timeless, Frame by Frame! Crisp, clear, and classic. Our DSLR Booth delivers studio-quality snapshots with a touch of fun. Strike a pose, choose your backdrop, and let the pro-grade camera do the rest—because every detail deserves to shine.
             </p>
             <button className="btn block" onClick={() => navigate("/packages/1")}>Book Now</button>
           </div>
@@ -57,7 +57,7 @@ const ExploreOurBooths = () => {
 
           <div className="lg:w-[26rem] w-full lg:mr-10">
             <h2 className="lg:pb-7 py-5 text-2xl">360 Booth</h2>
-            <p className="text-lg "> Every Angle, Every Moment! Why take one shot when you can have them all? Step onto the platform, let the camera spin, and capture the magic in motion. Slow-mo, boomerang, or a full cinematic spin—your moment, your way.
+            <p className="text-lg lg:text-xl xl:text-2xl "> Every Angle, Every Moment! Why take one shot when you can have them all? Step onto the platform, let the camera spin, and capture the magic in motion. Slow-mo, boomerang, or a full cinematic spin—your moment, your way.
             </p>
             <button className="btn block " onClick={() => navigate("/packages/3")}>Book Now</button>
           </div>
@@ -67,7 +67,7 @@ const ExploreOurBooths = () => {
 
           <div className="lg:w-[26rem] w-full mr-10">
             <h2 className="lg:pb-7 py-5 text-2xl">Magazine Booth</h2>
-            <p className="text-lg ">Every Frame, Cover-Worthy! Step into the spotlight and onto the cover. With flawless lighting and editorial-style flair, FotoRoo’s Magazine Booth transforms every shot into an editorial masterpiece. Instant. Iconic. Unforgettable.
+            <p className="text-lg lg:text-xl xl:text-2xl">Every Frame, Cover-Worthy! Step into the spotlight and onto the cover. With flawless lighting and editorial-style flair, FotoRoo’s Magazine Booth transforms every shot into an editorial masterpiece. Instant. Iconic. Unforgettable.
 
             </p>
             <button className="btn block" onClick={() => navigate("/packages/4")}>Book Now</button>

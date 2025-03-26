@@ -5,11 +5,11 @@ const OurBomb = () => {
     <section className="flex lg:justify-between md:gap-20 lg:flex-row flex-col lg:items-center lg:px-24 w-full my-10">
       <div className="text-center md:text-start">
         {/* <h1 className="md:text-[55px] md:uppercase font-pinyon text-5xl md:font-rig-solid"> */}
-        <h1 className="md:text-[55px] md:uppercase font-dhaks text-5xl md:font-dhaks">
+        <h1 className="md:text-[55px] lg:text-[70px] xl:text-[85px] uppercase font-dhaks text-5xl ">
           Freeze the Fun, Frame the Magic
         </h1>
         <p className="border-b border-black md:w-[640px] my-4" />
-        <div className="text-textCol lg:text-xl text-base font-rische  laywrite font-medium">
+        <div className="text-textCol md:text-lg lg:text-xl xl:text-2xl text-base font-rische laywrite font-medium">
           <p className="my-4 ">
             At FotoRoo, we don’t just capture moments—we turn them into
             unforgettable masterpieces. Every click is a memory, every pose a

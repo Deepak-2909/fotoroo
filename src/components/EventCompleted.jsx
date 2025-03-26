@@ -59,7 +59,7 @@ const EventCompleted = () => {
         <h1 
           // className="md:font-pinyon font-rig-solid text-center text-4xl md:text-6xl"
           // className="md:font-dhaks font-rig-solid text-center text-4xl md:text-6xl"
-          className="md:text-[55px] md:uppercase font-dhaks text-5xl md:font-dhaks text-center"
+          className="md:text-[55px] lg:text-[70px] xl:text-[85px] uppercase font-dhaks text-5xl text-center"
           
         >
           Events Completed
